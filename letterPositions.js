@@ -18,23 +18,23 @@ const assertArraysEqual = function(arrayA, arrayB) {
   }
 };
 
-const letterPositions = function(sentance){
-  let results = {}
-  for (let i = 0; i < sentance.length; i++){
-    if (sentance[i] !== " "){
-      if (results[sentance[i]]){
-        results[sentance[i]].push(i)
+const letterPositions = function(sentance) {
+  let results = {};
+  for (let i = 0; i < sentance.length; i++) {
+    if (sentance[i] !== " ") {
+      if (results[sentance[i]]) {
+        results[sentance[i]].push(i);
       } else {
-        results[sentance[i]] = [i]
+        results[sentance[i]] = [i];
       }
     }
   }
   return results;
-}
+};
 
-assertArraysEqual(letterPositions("lighthouse in the house").l, [0])
+assertArraysEqual(letterPositions("lighthouse in the house").l, [0]);
 // console.log(letterPositions("lighthouse in the house"));
-// console.log({ 
+// console.log({
 //   l: [0],
 //   i: [1, 11],
 //   g: [2],
