@@ -29,6 +29,8 @@ const eqObjects = function(object1, object2) {
           return false;
         }
       }
+    } else {
+      return false;
     }
   }
   return true;
@@ -44,4 +46,4 @@ const assertObjectsEqual = function(actual, expected) {
 };
 
 assertObjectsEqual({ c: "landon", d: "jalayna"}, {c: "landon", d: "jalayna"});
-assertObjectsEqual({ a: "landon", b: "jalayna"}, {a: "john", b: "jalayna"});
+assertObjectsEqual({ a: "landon", b: "jalayna"}, {a: "", b: "jalayna"});
