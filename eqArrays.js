@@ -1,4 +1,3 @@
-
 const eqArrays = function(arrayA, arrayB) {
   if (arrayA.length !== arrayB.length) {
     return false;
