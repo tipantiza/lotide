@@ -47,3 +47,5 @@ The following functions are currently implemented:
 * `takeUntil(array, callBack)`: takes in an array to work with, and a callback function. The function will return a new array with elements up until the callback returns a truthy value.
 
 * `without(source, itemsToRemove)`: This function takes in a source array and an itemsToRemove array. It returns a new array with only those elements from source that are not present in the itemsToRemove array.
+
+* `flatten(array)`: takes in an array containing elements including nested arrays of elements, and return a "flattened" version of the array. but only one level of nesting.
