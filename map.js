@@ -40,3 +40,5 @@ const result3 = map(multiple, value => value + " hi" )
 assertArraysEqual(result1, ["e", "b", "c"]);
 assertArraysEqual(result2, [2, 4, 6, 8]);
 assertArraysEqual(result3, ["1 hi", " hi", "l hi", "3 hi"]);
+
+module.exports = map;
