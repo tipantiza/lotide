@@ -1,6 +1,6 @@
 {
   "name": "@tipantiza/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Lotide project is inspired by the Lodash project, which is a utility library for JavaScript. The Lotide project is a modular collection of functions that operate on data, namely Arrays and Objects.",
   "main": "assertArraysEqual.js",
   "directories": {
