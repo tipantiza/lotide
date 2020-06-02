@@ -51,3 +51,5 @@ The following functions are currently implemented:
 * `flatten(array)`: takes in an array containing elements including nested arrays of elements, and return a "flattened" version of the array. but only one level of nesting.
 
 * `eqObjects(objectA, objectB)`: compares two given object if they are identical it returns true if not false.
+
+* `eqArrays(arrayA,arrayb)` : compares two given arrays if they are identical it returns true if not false.
