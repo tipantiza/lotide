@@ -10,5 +10,6 @@ const map = require('./map')
 const takeUntil = require('./takeUntil')
 const without = require('./without')
 const flatten = require('./flatten')
+const eqObjects = require('./eqObjects');
 
-module.exports = {head, tail, middle, countLetters, countOnly, findKey, findKeyByValue, letterPositions, map, takeUntil, without, flatten}
+module.exports = {head, tail, middle, countLetters, countOnly, findKey, findKeyByValue, letterPositions, map, takeUntil, without, flatten, eqObjects}

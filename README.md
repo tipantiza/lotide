@@ -49,3 +49,5 @@ The following functions are currently implemented:
 * `without(source, itemsToRemove)`: This function takes in a source array and an itemsToRemove array. It returns a new array with only those elements from source that are not present in the itemsToRemove array.
 
 * `flatten(array)`: takes in an array containing elements including nested arrays of elements, and return a "flattened" version of the array. but only one level of nesting.
+
+* `eqObjects(objectA, objectB)`: compares two given object if they are identical it returns true if not false.
