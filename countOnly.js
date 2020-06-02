@@ -8,13 +8,6 @@ const assertEqual = function(actual, expected) {
 
 const countOnly = function(allItems, itemsToCount) {
   let results = {};
-  // let array = [];
-  // for (let i in itemsToCount){
-  //   if (itemsToCount[i] === true){
-  //     array.push(i)
-  //   }
-  // }
-  // console.log(array)
   for (const item of allItems) {
     if (itemsToCount[item]) {
       if (results[item]) {
@@ -24,7 +17,6 @@ const countOnly = function(allItems, itemsToCount) {
       }
     }
   }
-  console.log(results);
   return results;
 };
 
